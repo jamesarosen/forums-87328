@@ -1,2 +1,17 @@
 /nested/:file.:ext
   custom: foobar
+  star-count: 0
+  placeholder-count: 0
+  slash-count: 2
+
+/test/*.:fingerprint.:ext
+  fingerprinted: true
+  star-count: 1
+  placeholder-count: 2
+  slash-count: 1
+
+/*/:file.:fingerprint.:ext
+  fingerprinted: true
+  star-count: 1
+  placeholder-count: 3
+  slash-count: 2
