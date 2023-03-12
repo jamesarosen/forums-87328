@@ -4,14 +4,17 @@
   placeholder-count: 0
   slash-count: 2
 
-/test/*.:fingerprint.:ext
+/test/*.:fingerprint.css
   fingerprinted: true
   star-count: 1
   placeholder-count: 2
   slash-count: 1
 
-/*/:file.:fingerprint.:ext
+/*/:file.:fingerprint.txt
   fingerprinted: true
   star-count: 1
   placeholder-count: 3
   slash-count: 2
+
+/*/:file.js
+  is-js: true
