@@ -5,6 +5,7 @@
   slash-count: 2
 
 /test/*.:fingerprint.css
+  is-test: true
   fingerprinted: true
   star-count: 1
   placeholder-count: 2
